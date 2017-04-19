@@ -46,7 +46,6 @@ public class UserManagerApplication {
 	    InternalResourceViewResolver resolver = new InternalResourceViewResolver();
 	    resolver.setPrefix("/WEB-INF/views/");
 	    resolver.setSuffix(".jsp");
-	    resolver.setExposedContextBeanNames("carrinhoCompras");
 	    return resolver;
 	}
 	
